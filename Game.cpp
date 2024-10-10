@@ -44,6 +44,7 @@ void Game::update()
 	//update entidades
 	//cout<<"update"<<endl;
 	_player.update();
+	_enemigo.update();
 }
 
 void Game::processEvent()
@@ -75,6 +76,7 @@ void Game::render()
 {
 	//dibujar en pantalla
 	_player.render();
+	_enemigo.render();
 	//cout<<"render"<<endl;
 }
 

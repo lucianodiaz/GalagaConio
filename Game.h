@@ -5,7 +5,7 @@
 #include <conio2.h>
 #include <windows.h>
 #include "Player.h"
-
+#include "Enemigo.h"
 using namespace std;
 
 class Game 
@@ -29,6 +29,8 @@ private:
 	bool _isWindowOpen=true;
 	
 	Player _player;
+	
+	Enemigo _enemigo;
 };
 
 #endif

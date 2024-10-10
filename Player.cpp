@@ -57,7 +57,6 @@ void Player::processEvent()
 			{
 				_y +=1;
 			}
-			_life -=1;
 			break;
 		case 77:
 		case 100:// derecha

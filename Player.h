@@ -17,6 +17,7 @@ public:
 	void update();
 	void processEvent();
 	void render();
+	
 private:
 	//pos del jugador en pantalla
 	int _x;
